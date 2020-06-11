@@ -21,7 +21,9 @@ public class Jenkins {
 
 	@Test
 	public void testcase() {
+		System.out.println("Checking jenkins job");
 		Assert.assertEquals("1", "1");
+		
 	}
 
 	@AfterMethod
